@@ -1,0 +1,15 @@
+#title{
+        background-image: linear-gradient(45deg, #c1bebe, #000000, #0772f6, #ff9a9e);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: animateGradient 0.2ms linear infinite;
+      }
+    
+      @keyframes animateGradient {
+        0% {
+          background-position: 0% 50%;
+        }
+        100% {
+          background-position: 100% 50%;
+        }
+      }
